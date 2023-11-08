@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; 
+    color: white; 
+    padding: 0.5rem 1rem;
+  }
+  
+  .branding h1 {
+    margin: 0;
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navigation li a {
+    color: white; 
+    text-decoration: none;
+  }
+  
+ 
+  

@@ -1,0 +1,35 @@
+.portfolio {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .project {
+    width: 300px; 
+    border: 1px solid #ddd; 
+    padding: 1rem;
+    border-radius: 4px; 
+  }
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+
+  .project a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #007bff; 
+  }
+  
+
+  
