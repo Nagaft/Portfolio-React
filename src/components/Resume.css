@@ -1,19 +1,45 @@
-.resume {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .resume h3 {
-    text-align: left;
-  }
-  
-  .resume .download-resume {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #007bff; 
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-  }
+
+.resume-section {
+  padding: 1rem;
+  margin: 1rem;
+}
+.resume-section h2 {
+  border-bottom: 2px solid #666;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-section li {
+  margin-bottom: 0.5rem;
+}
+
+
+.resume-section p {
+  margin-bottom: 1rem;
+}
+
+.resume-section .download-button {
+  display: block;
+  width: max-content;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-decoration: none; /* If the button is a link */
+}
+
+.resume-section .download-button:hover {
+  background-color: #0056b3;
+}
+
   
