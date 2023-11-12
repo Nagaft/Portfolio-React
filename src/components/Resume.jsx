@@ -36,7 +36,7 @@ const education = [
 
 
   return (
-    <section className="resume">
+    <section className="resume-section">
       <h2>Resume</h2>
 
       <div className="experience">

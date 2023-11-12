@@ -1,13 +1,23 @@
 import './Portfolio.css'; 
+import imgregex from '../assets/regex.png';
+import imgpgen from '../assets/pgen.png';
+
 
 function Portfolio() {
   const projects = [
     {
       title: 'Regex URL Validation Tutorial in JavaScript',
       description: 'This repository contains a detailed tutorial on how to use a Regular Expression (Regex) for URL validation in JavaScript. The tutorial breaks down a specific regex pattern used for URL validation, explaining each component and its function in the pattern.',
-      imageUrl: '../assets/images.png',
-      liveUrl: 'https://github.com/Nagaft/regex-validation-URLshttp://liveurl.com', 
+      imageUrl: imgregex,
+      liveUrl: 'https://github.com/Nagaft/regex-validation-URLs', 
       codeUrl: 'https://github.com/Nagaft/regex-validation-URLs' 
+    },
+    {
+      title: 'Password Generator',
+      description: 'This is a simple web application that generates secure passwords based on user preferences. It allows users to specify the length of the password and choose whether to include uppercase letters, lowercase letters, numbers, and special characters.',
+      imageUrl: imgpgen,
+      liveUrl: 'https://nagaft.github.io/Password-generator/', 
+      codeUrl: 'https://github.com/Nagaft/Password-generator#password-generator' 
     },
   
   ];
