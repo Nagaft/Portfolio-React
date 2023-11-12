@@ -1,6 +1,9 @@
 import './Portfolio.css'; 
 import imgregex from '../assets/regex.png';
 import imgpgen from '../assets/pgen.png';
+import imgcc from '../assets/imgcc.png';
+import imgjsq from '../assets/imgjsq.png';
+import imgwds from '../assets/imgwds.png';
 
 
 function Portfolio() {
@@ -18,6 +21,27 @@ function Portfolio() {
       imageUrl: imgpgen,
       liveUrl: 'https://nagaft.github.io/Password-generator/', 
       codeUrl: 'https://github.com/Nagaft/Password-generator#password-generator' 
+    },
+    {
+      title: 'Climate Connect',
+      description: 'A simple web page that allows you to search for a city and view its current and future weather conditions.',
+      imageUrl: imgcc,
+      liveUrl: 'https://nagaft.github.io/Climate_Connect/', 
+      codeUrl: 'https://github.com/Nagaft/Climate_Connect' 
+    },
+    {
+      title: 'Interactive Quiz',
+      description: 'This project is a JavaScript quiz that tests your knowledge of JavaScript fundamentals. It presents a series of multiple-choice questions. The project also includes a timer to add a time constraint to the quiz and a high score feature to store and display the scores of previous participants.',
+      imageUrl: imgjsq,
+      liveUrl: 'https://nagaft.github.io/Interactive_Quiz/', 
+      codeUrl: 'https://github.com/Nagaft/Interactive_Quiz' 
+    },
+    {
+      title: 'Work Day Schedule',
+      description: 'Work Day Schedule is a simple web application that allows you to schedule and manage your daily tasks. It provides an intuitive interface where you can enter and save your agenda for each hour of the work day. The application also dynamically updates the styling of each time block based on the current hour.',
+      imageUrl: imgwds,
+      liveUrl: 'https://nagaft.github.io/Work_Day_Schedule/', 
+      codeUrl: 'https://github.com/Nagaft/Work_Day_Schedule' 
     },
   
   ];
