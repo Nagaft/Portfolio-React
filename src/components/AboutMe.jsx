@@ -10,8 +10,8 @@ function AboutMe() {
       <div className="content">
         <img src={myImage} alt="Noe" className="profile-image" />
         <div className="bio">
-          <p>Hello! I'm Noé García. I specialize in Web developmen. I&aposm passionate about programing and am always looking for new challenges and opportunities to learn and grow.</p>
-          <p>Here you can find some of my portfolio pieces, and feel free to contact me if you&aposre looking for someone with my skills and background. I&aposm always open to discussing new projects or opportunities for collaboration.</p>
+          <p>Hello! I'm Noé García. I specialize in Web developmen. I'm passionate about programing and am always looking for new challenges and opportunities to learn and grow.</p>
+          <p>Here you can find some of my portfolio pieces, and feel free to contact me if you're looking for someone with my skills and background. I'm always open to discussing new projects or opportunities for collaboration.</p>
         </div>
       </div>
     </section>
